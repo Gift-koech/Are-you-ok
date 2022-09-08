@@ -18,7 +18,7 @@ search = document.querySelector("#searchbar")
         console.log(data);
         const html = data
         .map(article => {
-            document.quelySelector("#app").innerHTML=``
+            document.querySelector("#app").innerHTML=``
             return `
          
            <div class = "user flex-child">
