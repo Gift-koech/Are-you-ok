@@ -69,5 +69,17 @@ form{
     outline: auto;
     outline-color: gold;
 }   
-
-   
+#comment-box, #post{
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+#post:hover{
+    background-color: gold;
+}
+#unordered{
+   forced-color-adjust: white;
+}
+.comment-joint{
+    font-size: large;
+}
